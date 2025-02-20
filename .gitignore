@@ -203,18 +203,9 @@ dmypy.json
 .pyre/
 
 # IDE-specific files
-.idea/
 modules.xml
 profiles_settings.xml
 Project_Default.xml
 SimpleFlaskRESTfulBookLibrary.iml
 vcs.xml
 
-# IDE-specific files
-.idea/
-SimpleFlaskRESTfulBookLibrary.iml
-
-
-# IDE-specific files
-.idea/
-SimpleFlaskRESTfulBookLibrary.iml

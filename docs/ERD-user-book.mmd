@@ -1,0 +1,15 @@
+erDiagram
+  USER {
+    int id
+    string username
+    string email
+    string password_hash
+  }
+  BOOK {
+    int id
+    string title
+    string author
+  }
+  USER ||--o{ BOOK : owns
+
+

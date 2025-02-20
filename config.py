@@ -1,4 +1,4 @@
 class Config:
     DEBUG = True
     TESTING = False
-    # Add other configuration variables here# Configuration settings go here
+    # todo Add other configuration variables here# Configuration settings go here

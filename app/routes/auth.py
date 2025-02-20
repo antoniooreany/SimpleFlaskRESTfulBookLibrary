@@ -36,4 +36,4 @@ def signup():
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('auth.login'))
-    return render_template('signup.html')
+    return render_template('signup.html') # todo signup.html is not found, fix it.

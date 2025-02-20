@@ -1,13 +1,13 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, render_template
 from app.models import Book
 from app import db
 
 books_bp = Blueprint('books', __name__)
 
-
 @books_bp.route('/')
 def index():
-    return jsonify({"message": "Welcome to the SimpleFlaskRESTfulBookLibrary API"})
+    # return jsonify({"message": "Welcome to the SimpleFlaskRESTfulBookLibrary API"})
+    return render_template('index.html')
 
 
 @books_bp.route('/books', methods=['GET'])

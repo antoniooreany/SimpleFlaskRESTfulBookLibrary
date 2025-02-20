@@ -1,1 +1,5 @@
 # List your dependencies here
+
+Flask
+flask_sqlalchemy
+flask_migrate

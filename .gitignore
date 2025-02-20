@@ -209,3 +209,5 @@ Project_Default.xml
 SimpleFlaskRESTfulBookLibrary.iml
 vcs.xml
 
+generate_key.py
+
